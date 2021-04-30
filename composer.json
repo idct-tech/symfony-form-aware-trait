@@ -1,0 +1,21 @@
+{
+    "name": "idct-tech/symfony-form-aware-trait",
+    "description": "Grants basic addons for classes which operate with Symfony Forms.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "IDCT Bartosz Pachołek",
+            "email": "bartosz@idct.tech"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "IDCT\\Symfony\\Form\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/form": "^4.4 || ^5.2"
+    }
+}
