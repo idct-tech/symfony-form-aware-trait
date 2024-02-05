@@ -14,8 +14,8 @@
             "IDCT\\Symfony\\Form\\": "src/"
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
-        "symfony/form": "^6 || ^5.2"
+        "symfony/form": "^7 || ^6"
     }
 }
